@@ -21,6 +21,7 @@ namespace HyPack
             }
 
             s_Instance = this;
+            DontDestroyOnLoad(this);
         }
 
         #endregion Singleton
